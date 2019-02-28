@@ -100,7 +100,7 @@ MemoryGame = function(gs) {
     // dos volteadas, comprobar si son la misma (en cuyo caso las marcará como
     // encontradas). En caso de no ser la misma las volverá a poner boca abajo
     this.onClick = function(cardId) {
-        if(cardId !== undefined && that.cards[cardId].state === cardState.down  && that.continue) {
+        if(cardId !== undefined && that.cards[cardId] && that.cards[cardId].state === cardState.down  && that.continue) {
             that.cards[cardId].flip();
             that.cards[cardId].state = cardState.up; // ponemos la carta boca arriba
 
