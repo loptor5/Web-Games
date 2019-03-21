@@ -29,7 +29,7 @@ var Spawn = function (callback) {
 
     for (var i = 0; i < this.levelData.length; i++) {
       data = this.levelData[i];
-      if (isFloating(data[0])) {
+      if (isFloating(data[0])) { // Objeto flotante
         if (data[5] === 0) {
           data[5] += dt;
           this.board.add(Object.create(new Floating(data[0], data[1], data[2], data[3], data[4])));
@@ -37,7 +37,7 @@ var Spawn = function (callback) {
         }
       }
       else {
-        if (data[5] === 0) {
+        if (data[5] === 0) { // Objeto coche
           data[5] += dt;
           this.board.add(Object.create(new Car(data[0], data[1], data[2], data[3], data[4])));
           //console.log(data[4] + "velocidad coche");
