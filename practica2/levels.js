@@ -12,7 +12,7 @@ var level1 = [ //sprite, carril, sentido, start, vel, tiempoAux, tiempoEspera
   ['fireCar', 4, 1, -130, 110, 2, 5],
   ['greenCar', 5, 1, -130, 100, 15, 10],
 ];
-
+/*
 var Level = function (levelData, callback) {
   this.levelData = [];
   for (var i = 0; i < levelData.length; i++) {
@@ -55,9 +55,9 @@ var Level = function (levelData, callback) {
     this.levelData.sort(function (a, b) { return a[7] - b[7]; });
   }
 }
+*/
 
-
-//SPAWNER
+//SPAWN
 
 var Spawn = function (callback) {
 
