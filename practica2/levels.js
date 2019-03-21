@@ -12,50 +12,6 @@ var level1 = [ //sprite, carril, sentido, start, vel, tiempoAux, tiempoEspera
   ['fireCar', 4, 1, -130, 110, 2, 5],
   ['greenCar', 5, 1, -130, 100, 15, 10],
 ];
-/*
-var Level = function (levelData, callback) {
-  this.levelData = [];
-  for (var i = 0; i < levelData.length; i++) {
-    this.levelData.push(Object.create(levelData[i]));
-  }
-  
-  this.t = 0;
-  this.callback = callback;
-
-  this.draw = function (ctx) { }
-
-  this.prototype.step = function (dt) {
-    this.t += dt * 10;
-
-    for (var i = 0; i < this.levelData.length; i++) {
-      data = this.levelData[i];
-      if (isFloating(data[0])) {
-        if (data[5] === 0) {
-          data[5] += dt;
-          this.board.add(Object.create(new Floating(data[0], data[1], data[2], data[3], data[4])));
-        }
-        
-      }
-      else {
-        if (data[5] === 0) {
-          data[5] += dt;
-          this.board.add(Object.create(new Car(data[0], data[1], data[2], data[3], data[4])));
-        }
-      }
-
-      if (data[5] >= data[6]) {
-        data[5] = 0;
-      }
-      else {
-        data[5] += dt;
-      }
-
-      this.levelData[i] = data;
-    }
-    this.levelData.sort(function (a, b) { return a[7] - b[7]; });
-  }
-}
-*/
 
 //SPAWN
 
