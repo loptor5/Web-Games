@@ -394,12 +394,12 @@ window.addEventListener('load', function () {
             }));
 
             stage.insert(new Q.Bloopa({
-                x: 700,
-                y: 100
+                x: 662,
+                y: 528
             }));
 
             stage.insert(new Q.Goomba({
-                x: 700,
+                x: 694,
                 y: 100
             }));
 
