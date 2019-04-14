@@ -5,6 +5,6 @@ Prácticas de la asignatura DVI.
 
 ·Práctica 2: Frogger -> https://loptor5.github.io/Web-Games/practica2/
 
-·Práctica 3: Mario Bros
+·Práctica 3: Mario Bros -> https://loptor5.github.io/Web-Games/practica3/
 
 *Enlaces para visualización de los juegos
