@@ -400,7 +400,7 @@ window.addEventListener('load', function () {
 
             stage.insert(new Q.Goomba({
                 x: 694,
-                y: 100
+                y: 528
             }));
 
             stage.insert(new Q.Goomba({
